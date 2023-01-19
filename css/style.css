@@ -30,6 +30,12 @@ body {
   background-color: white;
 }
 
+/* 
+===============
+Team description
+=============== 
+*/
+
 .team-description {
   width: 70vw;
   margin: 30px auto;
@@ -43,6 +49,22 @@ body {
 }
 
 .team-description .description {
-  margin-top: 40px;
+  margin: 40px 0 30px;
   font-size: 15px;
+}
+
+/* 
+===============
+Team cards
+=============== 
+*/
+
+.team-cards .card {
+  width: calc(100% / 3 - 20px);
+  height: 100px;
+
+  float: left;
+  margin: 0 10px 30px;
+
+  background-color: #0f0e17;
 }
